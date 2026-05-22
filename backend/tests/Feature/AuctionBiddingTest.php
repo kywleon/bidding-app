@@ -88,7 +88,7 @@ class AuctionBiddingTest extends TestCase
         ]);
 
         $response->assertStatus(422)
-            ->assertJsonFragment(['message' => 'Bid must be higher than the current price of 10100.00']);
+            ->assertJsonFragment(['message' => 'Bid must be higher than the current price of 10,100.00']);
     }
 
     public function test_bid_amount_must_be_positive(): void
