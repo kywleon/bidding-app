@@ -11,14 +11,8 @@ function getEcho() {
 
   echoInstance = new Echo({
     broadcaster: "pusher",
-    key: import.meta.env.VITE_PUSHER_APP_KEY ?? "bidding-app-key",
+    key: import.meta.env.VITE_PUSHER_APP_KEY,
     cluster: import.meta.env.VITE_PUSHER_APP_CLUSTER,
-    // wsHost: import.meta.env.VITE_REVERB_HOST ?? "localhost",
-    // wsPort: import.meta.env.VITE_REVERB_PORT ?? 443,
-    // wssPort: import.meta.env.VITE_REVERB_PORT ?? 443,
-    // forceTLS: (import.meta.env.VITE_REVERB_SCHEME ?? "http") === "https",
-    // enabledTransports: ["ws", "wss"],
-    // disableStats: true,
     forceTLS: true,
   });
 
