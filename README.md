@@ -145,7 +145,7 @@ Tests: 21 passed
 
 |             | URL                                                           |
 | ----------- | ------------------------------------------------------------- |
-| Frontend    | https://bidding-lqbwkut8j-kwok-yew-weng-s-projects.vercel.app |
+| Frontend    | https://bidding-b3mjudje1-kwok-yew-weng-s-projects.vercel.app |
 | Backend API | https://bidding-app-production-241b.up.railway.app            |
 
 ---
